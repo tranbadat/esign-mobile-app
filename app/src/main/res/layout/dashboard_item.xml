@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/dashboardIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/dashboard_item_icon"
+        android:src="@drawable/ic_incoming"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/dashboardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_item_text"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/black" />
+</LinearLayout>
